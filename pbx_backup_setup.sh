@@ -49,9 +49,6 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 # Rimuovere cartelle sporche backup in /mnt/backups
 rm -r /mnt/backups/$(hostname)*/
 
-# Eseguire un test di backup
-./pbx_ftp_upload.sh
-
 # Avvertenze
 echo "Attenzione! Inserire manualmente le password nei file ftp_login e login
 e id e key token nel file token"
